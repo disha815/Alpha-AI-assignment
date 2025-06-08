@@ -26,7 +26,7 @@ For example:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component         | Tool                               |
 |------------------|------------------------------------|
@@ -47,7 +47,7 @@ task3-vector-backend/
 
 ---
 
-## 💡 How It Works
+## How It Works
 
 
 1. Descriptions are converted into 384-dim vectors using all-MiniLM-L6-v2
