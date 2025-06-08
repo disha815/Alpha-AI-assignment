@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager with Caching</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Task Manager Pro</h1>
+            <p>With Smart Caching System</p>
+            
+            <div class="cache-status">
+                <div class="cache-info">
+                    <div class="cache-indicator" id="cacheIndicator"></div>
+                    <span id="cacheStatus">Cache Status: Loading...</span>
+                </div>
+                <button class="refresh-btn" id="refreshCache">
+                    🔄 Refresh Cache
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <form class="task-form" id="taskForm">
+                <input 
+                    type="text" 
+                    class="task-input" 
+                    id="taskInput" 
+                    placeholder="Enter a new task..."
+                    required
+                >
+                <button type="submit" class="add-btn" id="addBtn">
+                    Add Task
+                </button>
+            </form>
+
+            <div id="tasksContainer" class="tasks-container">
+                <div class="loading">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+
+            <div class="performance-metrics" id="performanceMetrics">
+                <strong>Performance Metrics:</strong><br>
+                Cache Hits: <span id="cacheHits">0</span> | 
+                Cache Misses: <span id="cacheMisses">0</span> | 
+                Total API Calls: <span id="apiCalls">0</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

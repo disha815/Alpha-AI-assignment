@@ -1,0 +1,44 @@
+{
+  "name": "task-manager-with-caching",
+  "version": "1.0.0",
+  "description": "A task management application with advanced caching implementation for improved performance",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'No build process needed - vanilla HTML/CSS/JS'",
+    "test": "echo 'No tests specified yet'",
+    "lint": "npx eslint js/*.js",
+    "format": "npx prettier --write ."
+  },
+  "keywords": [
+    "task-manager",
+    "caching",
+    "performance",
+    "javascript",
+    "html",
+    "css",
+    "local-storage",
+    "web-app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0",
+    "live-server": "^1.2.2",
+    "serve": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/task-manager-with-caching.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/task-manager-with-caching/issues"
+  },
+  "homepage": "https://github.com/yourusername/task-manager-with-caching#readme"
+}
